@@ -1,0 +1,29 @@
+{
+  "name": "simple-discoverable-webserver",
+  "version": "0.0.1",
+  "description": "A very simple boilerplate to create a discoverable (using bonjour/mdns) web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkwave/simple-discoverable-webserver.git"
+  },
+  "keywords": [
+    "webserver",
+    "bonjour",
+    "mdns",
+    "boilerplate"
+  ],
+  "author": "Massimo Avvisati <massimo.avvisati@codemotion.it> (https://github.com/darkwave/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/darkwave/simple-discoverable-webserver/issues"
+  },
+  "homepage": "https://github.com/darkwave/simple-discoverable-webserver#readme",
+  "dependencies": {
+    "bonjour": "^3.5.0",
+    "express": "^4.16.2"
+  }
+}
