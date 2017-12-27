@@ -25,5 +25,8 @@
   "dependencies": {
     "bonjour": "^3.5.0",
     "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "budo": "^10.0.4"
   }
 }

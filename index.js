@@ -1,11 +1,14 @@
-var express = require('express')
-var app = express()
+var budo = require('budo')
 
-app.get('/', function (req, res) {
-  res.send('Hello World')
+budo('./discovery.js',{
+  live: true,             // live reload
+  stream: process.stdout, // log to stdout
+  port: 3000,             // use this as the base port
+  watchGlob: '{public}/**/*.{html,css,js}'
+
+}).on('connect', function(ev) {
+  //...
 })
-
-app.listen(3000)
 
 var bonjour = require('bonjour')()
 
